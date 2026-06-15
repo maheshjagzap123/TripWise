@@ -1,0 +1,56 @@
+## ── Build output ────────────────────────────────────────────────────────────
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## ── Visual Studio ───────────────────────────────────────────────────────────
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## ── Rider / JetBrains ───────────────────────────────────────────────────────
+.idea/
+*.sln.iml
+
+## ── NuGet ───────────────────────────────────────────────────────────────────
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## ── .NET ────────────────────────────────────────────────────────────────────
+*.dll
+*.exe
+*.pdb
+*.cache
+*.tmp
+
+## ── EF Core Migrations scratch ──────────────────────────────────────────────
+# Keep Migrations folder but ignore snapshot if preferred
+# **/Migrations/
+
+## ── Environment / Secrets ───────────────────────────────────────────────────
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json
+secrets.json
+.env
+.env.*
+
+## ── OS files ────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## ── Test results ────────────────────────────────────────────────────────────
+TestResults/
+coverage/
+*.trx
+*.coveragexml
